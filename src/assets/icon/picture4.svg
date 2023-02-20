@@ -1,0 +1,17 @@
+<svg id="Group_31844" data-name="Group 31844" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_7424" data-name="Rectangle 7424" width="20.642" height="22" fill="#7f849c"/>
+    </clipPath>
+  </defs>
+  <path id="Path_13539" data-name="Path 13539" d="M0,0H24V24H0Z" transform="translate(0 0)" fill="none"/>
+  <g id="Group_26009" data-name="Group 26009" transform="translate(1.843 1.096)">
+    <g id="Group_26007" data-name="Group 26007" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_13541" data-name="Path 13541" d="M4.184,7.014a.841.841,0,1,1,0-1.682H9.408a.841.841,0,0,1,0,1.682Z" transform="translate(-0.493 -0.787)" fill="#7f849c"/>
+      <path id="Path_13542" data-name="Path 13542" d="M4.184,11.119a.841.841,0,1,1,0-1.682H9.408a.841.841,0,0,1,0,1.682Z" transform="translate(-0.493 -1.392)" fill="#7f849c"/>
+      <path id="Path_13543" data-name="Path 13543" d="M4.184,15.223a.841.841,0,1,1,0-1.682H9.408a.841.841,0,0,1,0,1.682Z" transform="translate(-0.493 -1.997)" fill="#7f849c"/>
+      <path id="Path_13544" data-name="Path 13544" d="M14.836,22a5.819,5.819,0,0,1-4.647-2.319H3.34A3.344,3.344,0,0,1,0,16.34v-13A3.346,3.346,0,0,1,3.331,0h7.945a.839.839,0,0,1,.267.072c.031.016.057.032.08.045h.026l.111.092,4.627,4.324a.877.877,0,0,1,.14.168.666.666,0,0,1,.109.483l.038,5.5A5.808,5.808,0,0,1,14.836,22m.007-10.067a4.19,4.19,0,1,0,.009,0ZM3.337,1.664A1.662,1.662,0,0,0,1.678,3.322v13a1.661,1.661,0,0,0,1.659,1.658l5.991.008a5.81,5.81,0,0,1,5.52-7.6l.143,0-.022-4.413H12.187a1.843,1.843,0,0,1-1.841-1.841V1.664Zm8.7,2.467a.158.158,0,0,0,.159.159h1.48L12.029,2.76Z" transform="translate(0 0)" fill="#7f849c"/>
+      <path id="Path_13545" data-name="Path 13545" d="M16.851,21.736a.842.842,0,0,1-.841-.841v-1.62h-1.62a.841.841,0,0,1,0-1.683h1.62v-1.62a.841.841,0,0,1,1.682,0v1.611h1.961v.081a.841.841,0,0,1-.341,1.61h-1.62v1.62a.841.841,0,0,1-.841.841" transform="translate(-1.998 -2.232)" fill="#7f849c"/>
+    </g>
+  </g>
+</svg>

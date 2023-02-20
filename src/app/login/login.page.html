@@ -1,0 +1,52 @@
+<ion-content>
+  <ion-grid>
+    <ion-row class="bar">
+      <ion-col></ion-col>
+    </ion-row>
+    <ion-row class="page-name">
+      <ion-col size="10">
+        <ion-label>Log In/Register</ion-label>
+      </ion-col>
+      <ion-col size="2" class="close-col">
+        <ion-img class="close-btn"></ion-img>
+      </ion-col>
+    </ion-row>
+    <ion-row class="description">
+      <ion-col>
+        <p>please enter your email address to receive <ion-text class="highlight-otp-text ion-text-capitalize"> one time password</ion-text></p>
+      </ion-col>
+    </ion-row>
+    <ion-row class="input">
+      <ion-col>
+        <ion-item lines="none">
+          <ion-input class="ion-text-capitalize" placeholder="email address">
+          </ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+    <ion-row class="checkbox-message">
+      <ion-col>
+        <ion-item lines="none">
+          <ion-checkbox slot="start"></ion-checkbox>
+          <ion-label>By continuing, I agree to the <ion-text class="ion-text-capitalize">terms of use & privacy policy</ion-text> </ion-label>
+        </ion-item>
+      </ion-col>  
+    </ion-row>
+    <ion-row class="btn">
+      <ion-col>
+        <ion-button expand="block" class="continue ion-text-capitalize">continue</ion-button>
+        <ion-label class="or">
+          <span>or</span>
+        </ion-label>
+        <ion-button expand="block" class="google-btn ion-text-capitalize">
+          <ion-icon name="logo-google"></ion-icon>
+          continue with google
+        </ion-button>
+        <ion-button expand="block" class="facebook-btn ion-text-capitalize">
+          <ion-icon name="logo-facebook"></ion-icon>
+          continue with facebook
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

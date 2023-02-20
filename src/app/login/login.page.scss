@@ -1,0 +1,139 @@
+ion-content {
+    ion-grid{
+        white-space: normal;
+        margin: 0 0.5rem 0 0.5rem;
+        .bar{
+        background: var(--ion-color-primary-lightWeight);
+        width: 15%;
+        height: 0.3rem;
+        margin-top: 0.3rem;
+        margin-bottom: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2rem;
+        }
+        .page-name {
+            ion-col{
+                ion-label {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                }
+                ion-img.close-btn {
+                    content: url("/assets/icon/close.svg");
+                }
+            }
+            .close-col{
+                display: flex;
+                justify-content: end;
+            }
+        }
+        .description {
+            ion-col{
+                p {
+                    line-height: 1.5rem;
+                    font-size: 1.2rem;
+                    ion-text {
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        .input{
+            ion-item {
+                --border-width:2px;
+                --border-radius:0.5rem;
+                
+                ion-input {
+                    height: 3.5rem;
+                    border-radius: 0.5rem;
+                    --padding-top: 1rem;
+                    --padding-bottom: 1rem;
+                }
+            }
+        }
+        .checkbox-message {
+            ion-col {
+                ion-item {
+                    --padding-start:0;
+                    ion-checkbox {
+                        margin: 0.5rem;
+                        --padding-start:0;
+                    }
+                    ion-label {
+                        white-space: break-spaces;
+                        line-height: 1.5rem;
+                        margin-top: 0;
+                        margin-bottom: 0;
+                        ion-text {
+                            color: var(--ion-color-tertiary);
+                        }
+                    }
+                }
+            }
+        }
+        .btn {
+            ion-col {
+                .continue{
+                    margin-top: 0.5rem;
+                    margin-bottom: 0.5rem;
+                }
+                ion-button {
+                    background-color: var(--ion-color-tertiary-custom-blue);
+                    color: var(--ion-color-primary-contrast);
+                    border: 1px solid var(--ion-color-input-border);
+                    border-radius: 0.5rem;
+                    height: 3.5rem;
+                    font-size: 1rem;
+                    margin-top: 1rem;
+                    margin-bottom: 1rem;
+                    --box-shadow:none;
+                    --padding-start:0;
+                    --padding-end:0;
+                    --padding-top:0.5rem;
+                    --padding-bottom:0.5rem;
+                }
+                ion-button::part(native){
+                    border-radius: 0.5rem;
+                }
+                .or{
+                    display: block;
+                    text-align: center;
+                    overflow: hidden;
+                    white-space: nowrap;
+                    margin-top: 1.2rem;
+                    margin-bottom: 1.2rem;
+                     > span {
+                        position: relative;
+                        display: inline-block;
+                    }
+                     > span:before,
+                     > span:after {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        width: 9999px;
+                        height: 3px;
+                        background: var(--ion-color-primary-lightWeight);
+                    }
+                     > span:before {
+                        right: 100%;
+                        margin-right: 15px;
+                    }
+                    
+                     > span:after {
+                        left: 100%;
+                        margin-left: 15px;
+                    }
+                }
+                .google-btn, .facebook-btn {
+                    --background: var(--ion-color-primary-contrast);
+                    color: var(--ion-color-button-color);
+                    ion-icon {
+                        margin-right: 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
